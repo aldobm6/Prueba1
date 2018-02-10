@@ -5,11 +5,19 @@ esto es una prueba desde develop
 
 Comandos Basicos de Git:
 
-Paso1: Clonar.
+# Paso 0 , configurando
+
+````
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+````
+
+
+# Paso1: Clonar, que es copiar hacia tu PC.
 
 `git clone <url.git>`
 
-Paso 2: hacer checkout
+Paso 2: hacer checkout, para establecerte en tu reporsitorio de trabajo.
 
 ````
 git checkout develop
